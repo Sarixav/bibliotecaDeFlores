@@ -34,9 +34,4 @@ Funcionalidad de Búsqueda Avanzada: Permite a los usuarios encontrar flores esp
 Integración de API Externas: Para proporcionar información actualizada y datos más completos sobre las flores y su cuidado.
 Soporte Multilenguaje: Expansión de la aplicación para ser utilizada en múltiples idiomas, mejorando la accesibilidad global.
 
-### Instrucciones de Instalación
-
-1. **Clona el repositorio del proyecto:**
-   ```bash
-   git clone https://github.com/tu_usuario/biblioteca-de-flores.git
 
