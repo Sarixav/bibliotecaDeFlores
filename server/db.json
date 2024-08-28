@@ -1,0 +1,164 @@
+{
+  "flowers": [
+    {
+      "id": "3",
+      "nombre": "Girasol",
+      "color": "Amarillo",
+      "tipo": "Flor de campo",
+      "alturaPromedio": "1.8 ",
+      "zona": "Campo de Girasoles"
+    },
+    {
+      "id": "4",
+      "nombre": "Lirio",
+      "color": "Blanco",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.7 ",
+      "zona": "Jardín de Lilios"
+    },
+    {
+      "id": "5",
+      "nombre": "Tulipán",
+      "color": "Rojo",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.4 ",
+      "zona": "Jardín de Tulipanes"
+    },
+    {
+      "id": "6",
+      "nombre": "Dalia",
+      "color": "Varios",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "1 ",
+      "zona": "Jardín de Dahlias"
+    },
+    {
+      "id": "7",
+      "nombre": "Margarita",
+      "color": "Blanco con centro amarillo",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.5 ",
+      "zona": "Jardín de Margaritas"
+    },
+    {
+      "id": "8",
+      "nombre": "Clavel",
+      "color": "Rosa",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.4 ",
+      "zona": "Jardín de Claveles"
+    },
+    {
+      "id": "10",
+      "nombre": "Petunia",
+      "color": "Varios",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.3 ",
+      "zona": "Jardín de Petunias"
+    },
+    {
+      "id": "11",
+      "nombre": "Hortensia",
+      "color": "Azul",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "1.2 ",
+      "zona": "Jardín de Hortensias"
+    },
+    {
+      "id": "12",
+      "nombre": "Caléndula",
+      "color": "Naranja",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.3 ",
+      "zona": "Jardín de Caléndulas"
+    },
+    {
+      "id": "13",
+      "nombre": "Geranio",
+      "color": "Rojo",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.4 ",
+      "zona": "Jardín de Geranios"
+    },
+    {
+      "id": "14",
+      "nombre": "Alegría del Hogar",
+      "color": "Rojo",
+      "tipo": "Flor de interior",
+      "alturaPromedio": "0.5 ",
+      "zona": "Invernadero de Alegrías"
+    },
+    {
+      "id": "15",
+      "nombre": "Anémona",
+      "color": "Varios",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.4 ",
+      "zona": "Jardín de Anémonas"
+    },
+    {
+      "id": "16",
+      "nombre": "Azucena",
+      "color": "Blanco",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.8 ",
+      "zona": "Jardín de Azucenas"
+    },
+    {
+      "id": "17",
+      "nombre": "Crisantemo",
+      "color": "Amarillo",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.6 ",
+      "zona": "Jardín de Crisantemos"
+    },
+    {
+      "id": "18",
+      "nombre": "Bougainvillea",
+      "color": "Rosa",
+      "tipo": "Flor de exterior",
+      "alturaPromedio": "3 ",
+      "zona": "Jardín de Bougainvilleas"
+    },
+    {
+      "id": "19",
+      "nombre": "Gardenia",
+      "color": "Blanco",
+      "tipo": "Flor de interior",
+      "alturaPromedio": "0.5 ",
+      "zona": "Invernadero de Gardenias"
+    },
+    {
+      "id": "20",
+      "nombre": "Lobelias",
+      "color": "Azul",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.3 ",
+      "zona": "Jardín de Lobelias"
+    },
+    {
+      "id": "21",
+      "nombre": "Fresia",
+      "color": "Varios",
+      "tipo": "Flor de jardín",
+      "alturaPromedio": "0.4 ",
+      "zona": "Jardín de Fresias"
+    },
+    {
+      "id": "22",
+      "nombre": "Magnolia",
+      "color": "Blanco",
+      "tipo": "Flor de exterior",
+      "alturaPromedio": "5 ",
+      "zona": "Jardín de Magnolias"
+    },
+    {
+      "id": "23",
+      "nombre": "Orquídea",
+      "color": "Varios",
+      "tipo": "Flor de interior",
+      "alturaPromedio": "0.5 ",
+      "zona": "Invernadero de Orquídeas"
+    }
+  ]
+}
