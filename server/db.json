@@ -65,12 +65,12 @@
       "zona": "Jardín de Hortensias"
     },
     {
-      "id": "12",
-      "nombre": "Caléndula",
-      "color": "Naranja",
-      "tipo": "Flor de jardín",
-      "alturaPromedio": "0.3 ",
-      "zona": "Jardín de Caléndulas"
+      "nombre": "Nuevo Nombre",
+      "tipo": "Nuevo Tipo",
+      "color": "Nuevo Color",
+      "alturaPromedio": "Nueva Altura",
+      "zona": "Nueva Zona",
+      "id": "12"
     },
     {
       "id": "13",
@@ -157,7 +157,7 @@
       "nombre": "Orquídea",
       "color": "Varios",
       "tipo": "Flor de interior",
-      "alturaPromedio": "0.5 ",
+      "alturaPromedio": "0.5 m",
       "zona": "Invernadero de Orquídeas"
     }
   ]

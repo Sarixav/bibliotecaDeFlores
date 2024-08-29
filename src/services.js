@@ -43,7 +43,7 @@ async function printFlower() {
                     <p class="text-pink-500 text-base">Zona: ${flower.zona}</p>
                 </div>
                 <div class="grid justify-items-center px-6 pt-4 pb-2">
-                    <button onclick="updateFlower('${flower.id}', { nombre: 'Nuevo Nombre', tipo: 'Nuevo Tipo', color: 'Nuevo Color', alturaPromedio: 'Nueva Altura', zona: 'Nueva Zona' })" class="bg-pink-500 shadow-md shadow-pink-400/60 hover:shadow-white/80 transition-all text-white font-bold py-2 px-4 mb-2 w-full rounded">Actualizar</button>
+                    <button onclick="showUpdateForm('${flower.id}', '${flower.nombre}', '${flower.tipo}', '${flower.color}', '${flower.alturaPromedio}', '${flower.zona}')" class="bg-pink-500 shadow-md shadow-pink-400/60 hover:shadow-white/80 transition-all text-white font-bold py-2 px-4 mb-2 w-full rounded">Actualizar</button>
                     <button onclick="deleteFlower('${flower.id}')" class="bg-white shadow-md shadow-pink-600/60 hover:shadow-pink-600/80 text-pink-500 transition-all font-bold py-2 px-4 w-full rounded mb-2">Eliminar</button>
                 </div>
             `;
@@ -81,6 +81,36 @@ async function updateFlower(id, updateFlowerData) {
     }
 }
 
+// Mostrar el formulario de actualización con los datos actuales
+function showUpdateForm(id, nombre, tipo, color, alturaPromedio, zona) {
+    document.getElementById('updateFlowerId').value = id;
+    document.getElementById('updateFlowerName').value = nombre;
+    document.getElementById('updateFlowerType').value = tipo;
+    document.getElementById('updateFlowerColor').value = color;
+    document.getElementById('updateFlowerHeight').value = alturaPromedio;
+    document.getElementById('updateFlowerZone').value = zona;
+    document.getElementById('updateFlowerForm').classList.remove('hidden');
+}
+
+// Ocultar el formulario de actualización
+function closeUpdateForm() {
+    document.getElementById('updateFlowerForm').classList.add('hidden');
+}
+
+// Enviar los datos del formulario de actualización
+async function submitUpdateForm() {
+    const id = document.getElementById('updateFlowerId').value;
+    const updateFlowerData = {
+        nombre: document.getElementById('updateFlowerName').value,
+        tipo: document.getElementById('updateFlowerType').value,
+        color: document.getElementById('updateFlowerColor').value,
+        alturaPromedio: document.getElementById('updateFlowerHeight').value,
+        zona: document.getElementById('updateFlowerZone').value
+    };
+
+    await updateFlower(id, updateFlowerData);
+    closeUpdateForm();
+}
 
 // MÉTODO POST (CREATE)
 async function createFlower() {
@@ -153,7 +183,7 @@ async function deleteFlower(id) {
     }
 }
 
-// Manejar el envío del formulario
+// Manejar el envío del formulario de creación de flores
 document.getElementById('addFlower').addEventListener('submit', function(event) {
     event.preventDefault();
     createFlower();

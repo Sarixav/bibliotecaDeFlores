@@ -126,8 +126,39 @@
         <ul id="flowerList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <!-- Aquí se inyectarán las tarjetas de flores -->
         </ul>
-
-    </div>
+    
+        <!-- Formulario para actualizar flores -->
+        <div id="updateFlowerForm" class="hidden fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-50">
+            <div class="bg-white p-4 rounded">
+                <h3 class="text-xl font-bold mb-4">Actualizar Flor</h3>
+                <form id="updateForm">
+                    <input type="hidden" id="updateFlowerId">
+                    <div>
+                        <label>Nombre:</label>
+                        <input type="text" id="updateFlowerName" placeholder="" class="border p-2 mb-2 w-full">
+                    </div>
+                    <div>
+                        <label>Tipo:</label>
+                        <input type="text" id="updateFlowerType" placeholder="Escribe el tipo" class="border p-2 mb-2 w-full">
+                    </div>
+                    <div>
+                        <label>Color:</label>
+                        <input type="text" id="updateFlowerColor" placeholder="Escribe el color" class="border p-2 mb-2 w-full">
+                    </div>
+                    <div>
+                        <label>Altura Promedio:</label>
+                        <input type="text" id="updateFlowerHeight" placeholder="Escribe la altura promedio" class="border p-2 mb-2 w-full">
+                    </div>
+                    <div>
+                        <label>Zona:</label>
+                        <input type="text" id="updateFlowerZone" placeholder="Escribe la zona" class="border p-2 mb-2 w-full">
+                    </div>
+                    <button type="button" onclick="submitUpdateForm()" class="bg-blue-500 text-white p-2 rounded">Actualizar</button>
+                    <button type="button" onclick="closeUpdateForm()" class="bg-gray-500 text-white p-2 rounded">Cancelar</button>
+                </form>
+            </div>
+        </div>
+    
 
     <!--FORMULARIO-->
     <div class="bg-white flex flex-col items-center relative z-10 mb-8 mt-8">
@@ -144,6 +175,7 @@
             <button type="button" class="p-2 border-2 border-gray-300 bg-pink-600 shadow-md shadow-pink-400/60 hover:shadow-pink-600/80 transition-all text-white font-bold rounded-md w-full" onclick="createFlower()">Añadir flor</button>
         </form>
     </div>
+    
     
     
     <!-- SECCION CONSEJOS -->
