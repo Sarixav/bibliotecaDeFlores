@@ -65,11 +65,11 @@
       "zona": "Jardín de Hortensias"
     },
     {
-      "nombre": "Nuevo Nombre",
-      "tipo": "Nuevo Tipo",
-      "color": "Nuevo Color",
-      "alturaPromedio": "Nueva Altura",
-      "zona": "Nueva Zona",
+      "nombre": "Rosa",
+      "tipo": "Flor de jardín",
+      "color": "Rojo",
+      "alturaPromedio": "1,2",
+      "zona": "Jardín",
       "id": "12"
     },
     {
