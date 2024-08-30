@@ -27,23 +27,6 @@
   
 - **API:** La aplicación se comunica con una API RESTful para realizar operaciones CRUD sobre las flores.
 
-## 📂 Estructura del Proyecto
-
-- `index.html`
-- `src/services.js`
-- `assets/`
-  - `cerezo.jpg`
-  - `hortensia.jpg`
-  - `lupino.webp`
-  - `lavanda.jpg`
-  - `margaritas.jpg`
-  - `calendula.jpg`
-  - `fondoFlores5.mp4`
-  - `regar.jpg`
-  - `luz.jpg`
-  - `fertilizante.jpg`
-  - `podar.webp`
-
 ## 🔌 API Endpoints
 
 La aplicación interactúa con una API que soporta las siguientes operaciones:
