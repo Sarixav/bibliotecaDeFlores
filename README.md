@@ -89,4 +89,4 @@ Este proyecto está bajo la **Licencia MIT**. Puedes consultar el archivo `LICEN
 
 ---
 
-¡Listo para copiar y pegar en tu archivo README de GitHub! 🌷✨
+🌷✨
