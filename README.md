@@ -1,4 +1,3 @@
-Aquí tienes el README con emoticonos y encabezados listos para pegar en GitHub:
 
 ---
 
