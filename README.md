@@ -3,7 +3,7 @@
 
 # 🌸 Biblioteca de Flores 🌼
 
-## 📖 Descripción
+## 📖 Descripción breve
 
 "Biblioteca de Flores" es una aplicación web interactiva que permite a los usuarios explorar, añadir y gestionar una colección personal de flores. A través de una interfaz visualmente atractiva, los usuarios pueden ver una galería de flores, añadir nuevas flores a su biblioteca, actualizar la información existente y obtener consejos sobre el cuidado de las flores.
 
