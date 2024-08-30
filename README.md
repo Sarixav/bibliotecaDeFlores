@@ -65,10 +65,6 @@ La aplicación interactúa con una API que soporta las siguientes operaciones:
 
 Las contribuciones son bienvenidas. Si tienes ideas para mejorar la aplicación, por favor abre un issue o envía un pull request.
 
-## 📜 Licencia
-
-Este proyecto está bajo la **Licencia MIT**. Puedes consultar el archivo `LICENSE` para más detalles.
-
 ---
 
 🌷✨
