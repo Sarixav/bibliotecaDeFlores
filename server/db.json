@@ -1,20 +1,20 @@
 {
   "flowers": [
     {
-      "id": "3",
       "nombre": "Girasol",
-      "color": "Amarillo",
       "tipo": "Flor de campo",
+      "color": "Amarillo",
       "alturaPromedio": "1.8 ",
-      "zona": "Campo de Girasoles"
+      "zona": "Campo de Girasoles",
+      "id": "3"
     },
     {
-      "id": "4",
-      "nombre": "Lirio",
-      "color": "Blanco",
+      "nombre": "rosa",
       "tipo": "Flor de jardín",
+      "color": "Blanco",
       "alturaPromedio": "0.7 ",
-      "zona": "Jardín de Lilios"
+      "zona": "Jardín de Lilios",
+      "id": "4"
     },
     {
       "id": "5",
@@ -41,12 +41,12 @@
       "zona": "Jardín de Margaritas"
     },
     {
-      "id": "8",
       "nombre": "Clavel",
-      "color": "Rosa",
       "tipo": "Flor de jardín",
+      "color": "Rosa",
       "alturaPromedio": "0.4 ",
-      "zona": "Jardín de Claveles"
+      "zona": "Jardín de Claveles",
+      "id": "8"
     },
     {
       "id": "10",
@@ -137,20 +137,20 @@
       "zona": "Jardín de Lobelias"
     },
     {
-      "id": "21",
-      "nombre": "Fresia",
-      "color": "Varios",
-      "tipo": "Flor de jardín",
-      "alturaPromedio": "0.4 ",
-      "zona": "Jardín de Fresias"
+      "nombre": "Nuevo Nombre",
+      "tipo": "Nuevo Tipo",
+      "color": "Nuevo Color",
+      "alturaPromedio": "Nueva Altura",
+      "zona": "Nueva Zona",
+      "id": "21"
     },
     {
-      "id": "22",
       "nombre": "Magnolia",
-      "color": "Blanco",
       "tipo": "Flor de exterior",
+      "color": "Blanco",
       "alturaPromedio": "5 ",
-      "zona": "Jardín de Magnolias"
+      "zona": "Jardín de Magnolias",
+      "id": "22"
     },
     {
       "id": "23",
